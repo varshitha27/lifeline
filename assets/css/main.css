@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+html, body {
+	font-size: 18px;
+	font-family: "Open Sans";
+	color: #282828;
+}
+
+h1, .h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
+h2, .h2 {
+	font-size: 32px;
+	font-weight: 700;
+}
+h3, .h3 {
+	font-size: 26px;
+	font-weight: 700;
+	margin-bottom:1rem;
+	margin-top:1.5rem;
+}
+h4, .h4 {
+	font-size: 24px;
+	font-weight: 700;
+}
+p {
+	font-weight: 400;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #282828;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+	align-items: center;
+    display: flex;
+}
+.navbar-light .navbar-nav .nav-item.active .nav-link, .navbar-light .navbar-nav .nav-item:hover > .nav-link {
+    color: #007dc3;
+}
+.navbar-light .navbar-nav .nav-link img {
+    margin-right:10px;
+}
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+    color: transparent;
+}
+.navbar-light .navbar-brand {
+    width: 100%;
+    max-width: 246px;
+}
+.logo-image {
+	background-image: url(../img/biosimilar-assist-logo.png);
+    background-size: contain;
+    height: 100%;
+    min-height: 71px;
+    background-repeat: no-repeat;
+}
+.bg-blue-menu.navbar-light .navbar-toggler-icon {
+    background-image: url(../img/orange-close.png);
+}
+.navbar-light .navbar-nav .nav-item .nav-link div{
+	background-size: contain;
+    height: 100%;
+    min-height: 51px;
+    background-repeat: no-repeat;
+    min-width: 40px;
+	float: left;
+	margin-right: 10px;
+}
+.logo-image-care-giver-menu{
+	background-image: url(../img/care-giver-menu.png);
+}
+.logo-image-healthcare-professional-menu{
+	background-image: url(../img/healthcare-professional-menu.png);
+}
+.healthcare .logo-image-care-giver-menu{
+	background-image: url(../img/care-giver-hcp-menu.png);
+}
+.healthcare .logo-image-healthcare-professional-menu{
+	background-image: url(../img/healthcare-professional-hcp-menu.png);
+}
+.bg-light {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(248, 249, 250, 0.6) !important;
+}
+.assist-block{
+	display:none;
+}
+.custom-card {
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:50px;
+}
+
+.p-relative{
+	position: relative;
+}
+.download-btn, .download-btn:hover {
+	width: 169px;
+	height: 42px;
+	color:#fff;
+	background-color:#005480;
+}
+.download-btn.blue, .download-btn.blue:hover {
+	background-color:#007dc3;
+}
+
+
+.fw-400{
+	font-weight:400;
+}
+.links-heading{
+	text-align: center;
+    margin-top: -200px;
+}
+.links-heading a{
+	color:#fff;
+	text-decoration:underline;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+.box.arrow-bottom:after {
+    content: " ";
+    position: absolute;
+    right: calc(50% - 20px);
+    bottom: -12px;
+    border-top: 12px solid #005480;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: none;
+}
+.card {
+    margin-bottom: 10px;
+}
+.card-header {
+    background-color: #E8E8E8;
+    border-bottom: 0px solid rgba(0,0,0,.125);
+	color: #282828;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.card-body {
+    background-color: #E8E8E8;
+}
+
+.collapsed .plus-or-minus{
+    height: 100%;
+    min-height: 46px;
+    background-repeat: no-repeat;
+    min-width: 46px;
+	float: left;
+	margin-right: 20px;
+	background-image: url(../img/plus.png);
+
+}
+.plus-or-minus{
+	background-image: url(../img/minus.png);
+	height: 100%;
+    min-height: 46px;
+    background-repeat: no-repeat;
+    min-width: 46px;
+	float: left;
+	margin-right: 20px;
+}
+.home-desktop-log{
+	display:block;
+}
+.healthcare .single-gene-table.table td,
+.table th {
+  border-top: none !important;
+  padding: 10px;
+  vertical-align: bottom !important;
+}
+.healthcare .single-gene-table ul li {
+  font-size: 16px;
+}
+.healthcare .single-gene-table {
+  height: auto;
+  min-height: 315px;
+}
+.healthcare .single-gene-table tr:nth-child(even) {
+  background-color: #d8d8d8;
+}
+.healthcare .single-gene-table tr:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+.healthcare .single-gene-table tr:last-child td:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.healthcare .kras-btn {
+  color: #fff;
+  width: 100%;
+  border-radius: 6px;
+  background: #007dc3;
+}
+.healthcare .ngs-btn {
+  color: #fff;
+  border-radius: 6px;
+  background: #005480;
+  width: 100%;
+}
+.healthcare .btn:hover {
+  color: #fff;
+}
+.healthcare .blue-bg {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.healthcare .dark-blue-bg {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.healthcare-cards{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+.healthcare-cards img{
+	padding-right:20px;
+}
+.arrow-tag{
+	color:#A51644;
+}
+
+div.footenote, div.references {
+    margin-bottom: 20px;
+}
+.footenote, .footenote p, .references p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.blue-text {
+	color: #3079c0;
+}
+.orange-text {
+	color: #EF711F;
+}
+.home-bg {
+	background-image: url('../img/home-bg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.patient-bg {
+	padding-top:112px;
+	padding-bottom:200px;
+}
+.patient{
+	background-image: url('../img/patient-bg.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: contain;
+}
+.program-bg {
+	padding-top: 112px;
+	padding-bottom: 20px;
+}
+.program {
+	background-image: url('../img/program-bg.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: contain;
+}
+.healthcare-bg {
+   padding-top:112px;
+   padding-bottom:200px;
+}
+.healthcare{
+   background-image: url("../img/healthcare-bg.png");
+   background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+.white-bg-tp {
+	border-radius: 6px;
+	background: rgba(255,255,255,0.75279015);
+	padding-top: 1% !important;
+}
+.content-wrap {
+	padding: 0 5% 10px 5%;
+}
+.blue-bg {
+	border-radius: 5.4px;
+	background-color: #007dc3;
+	color: #ffffff;
+}
+.light-blue-bg {
+	border-radius: 5.4px;
+	background-color: #64abda;
+	color: #ffffff;
+}
+.dark-blue-bg{
+	background-color:#005480;
+	color: #ffffff;
+	border-radius: 5.4px;
+}
+.grey-bg{
+	background-color:#E8E8E8;
+	border-radius: 5.4px;
+}
+.heading {
+	font-size: 32px;
+	line-height: 42px;
+	padding-top:30px;
+	padding-bottom:20px;
+}
+.tiles {
+	min-height: 270px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.flex-box {
+	display: flex;
+	align-items: center;
+}
+.br-0 {
+	border-radius: 0;
+}
+.pr-3 {
+	padding-right: 1rem;
+}
+.text-right {
+	text-align: right;
+}
+.desktop-only{
+	display:block;
+}
+.mobile-only{
+	display:none;
+}
+
+.small-footer {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+footer {
+	min-height: 184px;
+	color: #ffffff;
+	font-size: 14px;
+	background-color: #007dc3;
+}
+footer .content-wrap {
+	padding: 30px 2.5% 10px 2.5%;
+}
+.footer-links {
+	padding-left: 0;
+}
+.footer-links li {
+	list-style: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: inline-block;
+	border-right: 1px solid #ffffff;
+}
+.footer-links li:first-child {
+	padding-left: 0px;
+}
+.footer-links li:last-child {
+	border-right: 0px solid #ffffff;
+}
+.menu-btn {
+	padding: 10px 10px 10px 40px;
+	background: #ffffff;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	position: relative;
+}
+.menu-btn:before {
+	content: '';
+	position: absolute;
+	left: 15px;
+	top: 14px;
+	width:14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: #aeadaf;
+}
+.menu-btn.active:before {
+	background-color: #ff6702;
+}
+.menu-btn.active {
+	background: #007dc3;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.modal-height::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.modal-height::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+.modal-height::-webkit-scrollbar-thumb {
+  background: #e8e8e8;
+}
+
+/* Handle on hover */
+.modal-height::-webkit-scrollbar-thumb:hover {
+  background: #cccccc;
+}
+
+.modal-height {
+	padding-right: 20px;
+}
+.modal .close {
+	position: absolute;
+    right: 10px;
+    top: 0px;
+    opacity: 1;
+    color: #282828;
+    font-size: 53px;
+	font-weight: 300;
+}
+.no-deco, .no-deco:hover {
+	text-decoration: none;
+}
+.footer-links li a, .footer-links li a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+a.white-no-decoration, a.white-no-decoration:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+@media (min-width: 768px) {
+	.card-body {
+		padding-left: 88px;
+		padding-top: 0px;
+	}
+	.links-heading span {
+		display:inline-block;
+	}
+	.healthcare-cards img{
+		padding-right:20px;
+	}
+	.modal-body {
+		padding: 50px;
+	}
+	.modal-height {
+		max-height: 70vh;
+		overflow: auto;
+	}
+}
+
+
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav {
+		margin-right: 0px !important;
+	}
+	.navbar-expand-lg .navbar-collapse {
+		justify-content: flex-end;
+	}
+	.home .navbar{
+		display:none;
+	}
+	
+}
+
+
+@media (max-width: 991px) {
+	.navbar-toggler:focus, .navbar-toggler:hover {
+		outline: none;
+	}
+	.bg-blue-menu {
+		background-color: #007DC3 !important;
+		padding-bottom: 30px;
+		z-index: 1;
+	}
+	.bg-blue-menu .logo-image-care-giver-menu{
+		background-image: url(../img/care-giver-menu-inv.png);
+	}
+	.bg-blue-menu .logo-image-healthcare-professional-menu{
+		background-image: url(../img/healthcare-professional-menu-inv.png);
+	}
+	.bg-blue-menu.navbar-light .navbar-nav .nav-item .nav-link  {
+		color: #ffffff;
+		padding: 20px 20px;
+	}
+	.bg-blue-menu.navbar-light .navbar-nav {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.bg-blue-menu .logo-image  {
+		background-image: url(../img/biosimilar-assist-logo-inv.png);
+	}
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 26px;
+		font-weight: 300;
+        line-height: 34.56px;
+	}
+	.navbar-light .navbar-nav .nav-item .nav-link div {
+		min-height: 79px;
+		min-width: 62px;
+	}
+	.navbar-collapse {
+		height: 100vh;
+	}
+	.assist-block{
+		background-color:#005480;
+		color:#fff;
+		text-align: center;
+		padding: 15px;
+		display:block;
+		border-radius: 6px;
+	}
+	.call-assist{
+		background-color:#FF6702;
+		min-width: 266px;
+		min-height: 48px;
+		border-radius: 6px;
+		margin-bottom: 15px;
+		color:#fff;
+		font-weight: 300;
+	}
+	.timings{
+		max-width: 266px;
+		margin: 0 auto;
+		font-weight: 300;
+	}
+	.home-desktop-log{
+		display:none;
+	}
+	.home-bg {
+		padding-top: 150px;
+	}
+}
+
+
+@media (max-width: 767px) {
+	.white-bg-tp {
+		background: rgba(255,255,255,0.7480004);
+		padding-top: 5% !important;
+		width: calc(100% + 30px);
+		margin-left: -15px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.row div[class^='col-'] {
+		margin-bottom: 15px;
+	}
+	.home-bg {
+		background-image: url(../img/home-bg-mobile.png);
+	
+	}
+	.mobile-text-left {
+		text-align: left !important;
+	}
+	.plus-or-minus, .collapsed .plus-or-minus {
+        float: none;
+		margin-bottom: 10px;
+    }
+    .card-header {
+        line-height: 32px;
+    }
+	.custom-card {
+		padding: 15px;
+	}
+	.box.arrow-bottom:after {
+        right: calc(50% - 25px);
+        bottom: -12px;
+        border-top: 12px solid #005480;
+        border-right: 25px solid transparent;
+        border-left: 25px solid transparent;
+    }
+	.references p {
+        word-break: break-word;
+    }
+    .small-footer table tr td {
+        vertical-align: top;
+    }
+	.links-heading {
+		width: calc(100% + 30px);
+		margin-left: -15px;
+		border-radius: 0px;
+		padding: 0px !important;
+	}
+	.links-heading a {
+		display: block;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	.desktop-only{
+		display:none;
+	}
+	.mobile-only{
+		display:block;
+	}
+	.patient, .healthcare, .program {
+		background-image: none;
+	}
+	.mobile-program-bg {
+		background-image: url(../img/program-bg-img.png);
+		background-position: center;
+		background-size: cover;
+		padding-top: 48px;
+		padding-bottom: 35px;
+		margin-left: -15px;
+		margin-right: -15px;
+		width: calc(100% + 30px);
+		min-height: 190px;
+	}
+	.menu-btn {
+		text-align: center;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.mobile-padding-none {
+		padding: 0;
+	}
+}
